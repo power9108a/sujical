@@ -172,6 +172,9 @@ footer{background:#111;color:#fff;padding:35px 28px;text-align:center;font-size:
 .program-card img[data-cover]{min-height:190px;object-fit:cover}
 
 /* 방문자용 웹 게시 보정 */
+body{word-break:keep-all;overflow-wrap:break-word}
+.about-quote{white-space:nowrap}
+@media(max-width:600px){.about-quote{font-size:clamp(16px,5vw,20px)}}
 :root{color-scheme:light}
 body{background:var(--paper);color:var(--ink)}
 header{top:env(safe-area-inset-top,0px)}
@@ -227,9 +230,9 @@ button:focus-visible,a:focus-visible{outline:2px solid #111;outline-offset:2px}
   <div class="kicker">ABOUT THE EXHIBITION</div>
   <h2>전시회 소개</h2>
   <div class="about-layout">
-   <div><div class="about-quote">“함께한 도전,<br>더 가까워진 성장”</div>
+   <div><div class="about-quote">“함께한 도전, 더 가까워진 성장”</div>
     <p>성인 발달장애인의 건강한 삶을 위한 지역사회 참여형 스포츠 프로그램</p><div>'수지 피지컬(physical) : 100점 - 수지컬 : 100Ⅱ'</div><p></p>
-    <p>수지컬 프로필 촬영부터 함께한 다양한 활동까지, 소중한 추억을 담았습니다.</p><div>함께한 순간, 빛나는 성장의 기록. 사진으로 우리의 이야기를 전합니다.</div><p></p>
+    <p>수지컬 프로필 촬영부터 함께한 다양한 활동까지,<br>소중한 추억을 담았습니다.</p><div>함께한 순간, 빛나는 성장의 기록.<br>사진으로 우리의 이야기를 전합니다.</div><p></p>
    </div>
    <div class="programs-mini">
     <div class="mini"><div>▱</div><h3>스텝트레이닝</h3><p>신체활동을 통한 체력 향상과 활동 지속력 강화</p></div>
